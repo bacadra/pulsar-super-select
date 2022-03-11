@@ -1,0 +1,15 @@
+{
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Select text between the brackets or in the string",
+  "homepage": "https://github.com/bacadra/atom-super-select",
+  "keywords": [
+    "bacadra"
+  ],
+  "main": "./lib/main",
+  "name": "super-select",
+  "url": "https://github.com/bacadra/atom-super-select",
+  "repository": "https://github.com/bacadra/atom-super-select",
+  "version": "0.0.0",
+  "license": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007"
+}

@@ -1,0 +1,6 @@
+'atom-text-editor:not([mini])':
+  'alt-d'       : 'super-select:brackets'
+  'alt-s'       : 'super-select:string'
+  'alt-/'       : 'super-select:forward-slash'
+  'alt-\\'      : 'super-select:backslash'
+  'ctrl-alt-\\' : 'super-select:double-backslash'
