@@ -31,6 +31,8 @@ The search begins at the cursor position to the left. When a matching character 
 * `super-select:double-backslash`: convert slashes to `\\`
 * `super-select:backslash`: convert slashes to `\`
 * `super-select:forward-slash`: convert slashes to `/`
+* `super-select-html-body`: select HTML body
+* `super-select-html-tags`: select html tags
 
 # Contributing
 
