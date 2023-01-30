@@ -4,11 +4,15 @@ Select text between the brackets or in the string & normalize slash in selection
 
 ## Installation
 
-After the announcement of Atoms sunset, the official [Atom packages store](https://atom.io/packages) isn't respond properly, so latest version of this package cannot be downloaded there. To get latest version run the shell command
+The official [Atom packages store](https://atom.io/packages) has been disabled. To get latest version run the shell command
 
     apm install bacadra/atom-super-select
 
-and obtain the package directly from Github repository. Please note that package will occur in `Settings/Packages/Git Packages` instead of `Community Packages`.
+and obtain the package directly from Github repository.
+
+The package has compability with [Pulsar](https://pulsar-edit.dev/) and can be install
+
+    pulsar -p install bacadra/atom-super-select
 
 ## Search
 
@@ -31,14 +35,12 @@ The search begins at the cursor position to the left. When a matching character 
 * `super-select:double-backslash`: convert slashes to `\\`
 * `super-select:backslash`: convert slashes to `\`
 * `super-select:forward-slash`: convert slashes to `/`
-* `super-select-html-body`: select HTML body
-* `super-select-html-tags`: select html tags
 
 # Contributing
 
-If you have ideas on how to improve the package, see bugs or want to support new features, feel free to share them via GitHub.
+If you have ideas on how to improve the package, see bugs or want to support new features - feel free to share it via GitHub.
 
-See my other packages dedicated to Atom Editor:
+See my other packages for Atom Editor:
 
 * [autocomplete-sofistik](https://github.com/bacadra/atom-autocomplete-sofistik)
 * [bib-finder](https://github.com/bacadra/atom-bib-finder)
