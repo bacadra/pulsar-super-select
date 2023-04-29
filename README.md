@@ -20,7 +20,10 @@ The search begins at the cursor position to the left. When a matching character 
 
 ## Methods
 
-* `super-select:object`: select name joined by `.` and `_`
+* `super-select:chars-1`: select chars by `/[0-9\p{L}_\.]/`
+* `super-select:chars-2`: select chars by `/[0-9\p{L}_\.-]/`
+* `super-select:chars-3`: select chars by `/[0-9\p{L}\\]/`
+* `super-select:chars-4`: select chars by `/[0-9a-zA-Z_\[\]#]/`
 * `super-select:string`: select any of `'''`, `"""`, `'` or `"` pairs
 * `super-select:string-'-'`: select any of `'''` or `'` pairs
 * `super-select:string-'''-'''`: select `'''` pairs

@@ -1,7 +1,16 @@
 'atom-text-editor:not([mini])':
-  'alt-a'       : 'super-select:object'
+  'alt-a'       : 'super-select:chars-1'
   'alt-s'       : 'super-select:string'
   'alt-d'       : 'super-select:brackets'
   'alt-/'       : 'super-select:forward-slash'
   'alt-\\'      : 'super-select:backslash'
   'ctrl-alt-\\' : 'super-select:double-backslash'
+
+'atom-text-editor[data-grammar~="less"], atom-text-editor[data-grammar~="css"]':
+  'alt-a': 'super-select:chars-2'
+
+'atom-text-editor[data-grammar~="latex"]':
+  'alt-a': 'super-select:chars-3'
+
+'atom-text-editor[data-grammar~="sofistik"]':
+  'alt-a': 'super-select:chars-4'
