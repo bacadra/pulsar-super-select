@@ -1,5 +1,10 @@
 # super-select
 
+![Tag](https://img.shields.io/github/v/tag/bacadra/atom-super-select?style=for-the-badge)
+![LastCommit](https://img.shields.io/github/last-commit/bacadra/atom-super-select?style=for-the-badge)
+![RepoSize](https://img.shields.io/github/repo-size/bacadra/atom-super-select?style=for-the-badge)
+![Licence](https://img.shields.io/github/license/bacadra/atom-super-select?style=for-the-badge)
+
 Select text between the brackets or in the string & normalize slash in selections
 
 ## Installation
