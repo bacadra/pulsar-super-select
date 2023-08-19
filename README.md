@@ -1,17 +1,17 @@
 # super-select
 
 <p align="center">
-  <a href="https://github.com/bacadra/atom-super-select/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/atom-super-select?style=for-the-badge&label=Latest&color=blue" alt="Latest">
+  <a href="https://github.com/bacadra/pulsar-super-select/tags">
+  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-super-select?style=for-the-badge&label=Latest&color=blue" alt="Latest">
   </a>
-  <a href="https://github.com/bacadra/atom-super-select/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/atom-super-select?style=for-the-badge&color=blue" alt="OpenIssues">
+  <a href="https://github.com/bacadra/pulsar-super-select/issues">
+  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-super-select?style=for-the-badge&color=blue" alt="OpenIssues">
   </a>
-  <a href="https://github.com/bacadra/atom-super-select/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/atom-super-select?style=for-the-badge&color=blue" alt="Language">
+  <a href="https://github.com/bacadra/pulsar-super-select/blob/master/package.json">
+  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-super-select?style=for-the-badge&color=blue" alt="Language">
   </a>
-  <a href="https://github.com/bacadra/atom-super-select/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/atom-super-select?style=for-the-badge&color=blue" alt="Licence">
+  <a href="https://github.com/bacadra/pulsar-super-select/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/bacadra/pulsar-super-select?style=for-the-badge&color=blue" alt="Licence">
   </a>
 </p>
 
@@ -19,25 +19,9 @@ Select text between the brackets or in the string & normalize slash in selection
 
 ## Installation
 
-### Atom Text Editor
+To install `super-select` search for [super-select](https://web.pulsar-edit.dev/packages/super-select) in the Install pane of the Pulsar settings or run `ppm install super-select`.
 
-The official Atom packages store has been [disabled](https://github.blog/2022-06-08-sunsetting-atom/). To obtain the latest version, please run the following shell command:
-
-```shell
-apm install bacadra/atom-super-select
-```
-
-This will allow you to directly download the package from the GitHub repository.
-
-### Pulsar Text Editor
-
-The package is compatible with [Pulsar](https://pulsar-edit.dev/) and can be installed using the following command:
-
-```shell
-ppm install bacadra/atom-super-select
-```
-
-Alternatively, you can directly install [super-select](https://web.pulsar-edit.dev/packages/super-select) from the Pulsar package store.
+Alternatively, run `ppm install bacadra/pulsar-super-select` to install a package directly from Github repository.
 
 ## Search
 
