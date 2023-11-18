@@ -1,4 +1,4 @@
-'atom-text-editor:not([mini])':
+'atom-text-editor':
   'alt-a'       : 'super-select:chars-1'
   'alt-s'       : 'super-select:string'
   'alt-d'       : 'super-select:brackets'

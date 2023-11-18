@@ -21,7 +21,7 @@ Select text between the brackets or in the string & normalize slash in selection
 
 To install `super-select` search for [super-select](https://web.pulsar-edit.dev/packages/super-select) in the Install pane of the Pulsar settings or run `ppm install super-select`.
 
-Alternatively, run `ppm install bacadra/pulsar-super-select` to install a package directly from Github repository.
+Alternatively, you can run `ppm install bacadra/pulsar-super-select` to install a package directly from the Github repository.
 
 ## Search
 
