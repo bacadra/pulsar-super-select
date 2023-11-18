@@ -13,11 +13,11 @@
   ],
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
-  },  
+  },
   "main": "./lib/main",
   "name": "super-select",
   "url": "https://github.com/bacadra/pulsar-super-select",
   "repository": "https://github.com/bacadra/pulsar-super-select",
-  "version": "0.0.23",
+  "version": "1.0.0",
   "license": "MIT"
 }
