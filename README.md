@@ -27,26 +27,24 @@ The search begins at the cursor position to the left. When a matching character 
 
 ## Methods
 
-* `super-select:chars-1`: select chars by `/[0-9\p{L}_\.]/`
-* `super-select:chars-2`: select chars by `/[0-9\p{L}_\.-]/`
-* `super-select:chars-3`: select chars by `/[0-9\p{L}\\]/`
-* `super-select:chars-4`: select chars by `/[0-9a-zA-Z_\[\]#]/`
-* `super-select:string`: select any of `'''`, `"""`, `'` or `"` pairs
-* `super-select:string-'-'`: select any of `'''` or `'` pairs
-* `super-select:string-'''-'''`: select `'''` pairs
-* `super-select:string-"-"`: select any of `"""` or `"` pairs
-* `super-select:string-"""-"""`: select `"""` pairs
-* `super-select:brackets`: select any of `()`, `[]`, `{}` or `<>` pairs
-* `super-select:brackets-(-)`: select `()` pairs
-* `super-select:brackets-[-]`: select `[]` pairs
-* `super-select:brackets-{-}`: select `{}` pairs
-* `super-select:brackets-<->`: select `<>` pairs
-* `super-select:normalize`: convert slashes to match the most left slash
-* `super-select:double-backslash`: convert slashes to `\\`
-* `super-select:backslash`: convert slashes to `\`
-* `super-select:forward-slash`: convert slashes to `/`
-* `super-select:html-body`: select html body
-* `super-select:html-tags`: select html tags
+- `super-select:chars-1`: select chars by `/[0-9\\p{L}_\\.]/`
+- `super-select:chars-2`: select chars by `/[0-9\\p{L}_\\.\\-\\[\\]\\(\\)#]/`
+- `super-select:string`: select any of `'''`, `"""`, `'` or `"` pairs
+- `super-select:string-'-'`: select any of `'''` or `'` pairs
+- `super-select:string-'''-'''`: select `'''` pairs
+- `super-select:string-"-"`: select any of `"""` or `"` pairs
+- `super-select:string-"""-"""`: select `"""` pairs
+- `super-select:brackets`: select any of `()`, `[]`, `{}` or `<>` pairs
+- `super-select:brackets-(-)`: select `()` pairs
+- `super-select:brackets-[-]`: select `[]` pairs
+- `super-select:brackets-{-}`: select `{}` pairs
+- `super-select:brackets-<->`: select `<>` pairs
+- `super-select:normalize`: convert slashes to match the most left slash
+- `super-select:double-backslash`: convert slashes to `\\`
+- `super-select:backslash`: convert slashes to `\`
+- `super-select:forward-slash`: convert slashes to `/`
+- `super-select:html-body`: select html body
+- `super-select:html-tags`: select html tags
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
