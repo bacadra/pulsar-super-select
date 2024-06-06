@@ -1,20 +1,5 @@
 # super-select
 
-<p align="center">
-  <a href="https://github.com/bacadra/pulsar-super-select/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-super-select?style=for-the-badge&label=Latest&color=blue" alt="Latest">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-super-select/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-super-select?style=for-the-badge&color=blue" alt="OpenIssues">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-super-select/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-super-select?style=for-the-badge&color=blue" alt="Language">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-super-select/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/pulsar-super-select?style=for-the-badge&color=blue" alt="Licence">
-  </a>
-</p>
-
 Select text between the brackets or in the string & normalize slash in selections
 
 ## Installation
@@ -46,6 +31,6 @@ The search begins at the cursor position to the left. When a matching character 
 - `super-select:html-body`: select html body
 - `super-select:html-tags`: select html tags
 
-# Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
+# Contributing
 
 If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
