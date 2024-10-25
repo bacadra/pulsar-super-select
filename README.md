@@ -1,6 +1,6 @@
 # super-select
 
-Select text between the brackets or in the string & normalize slash in selections
+An additional methods of text selection e.g. by brackets, by string. A slash normalization included.
 
 ## Installation
 
@@ -33,4 +33,4 @@ The search begins at the cursor position to the left. When a matching character 
 
 # Contributing
 
-If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!

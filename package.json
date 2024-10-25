@@ -1,7 +1,7 @@
 {
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "Select text between the brackets or in the string & normalize slash in selections",
+  "description": "An additional methods of text selection",
   "homepage": "https://github.com/bacadra/pulsar-super-select",
   "keywords": [
     "bacadra",
