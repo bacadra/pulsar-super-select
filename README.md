@@ -10,7 +10,9 @@ To install `super-select` search for [super-select](https://web.pulsar-edit.dev/
 
 The search begins at the cursor position to the left. When a matching character is found, then it searches for the closing character to the right of the cursor.
 
-## Methods
+## Commands
+
+In `atom-text-editor` there are available commands:
 
 - `super-select:chars-1`: select text by chars `/[0-9\\p{L}_\\.]/`
 - `super-select:chars-2`: select text by chars `/[0-9\\p{L}_\\.\\-\\[\\]\\(\\)#]/`
