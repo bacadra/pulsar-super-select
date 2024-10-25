@@ -1,7 +1,7 @@
 {
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "An additional methods of text selection",
+  "description": "An additional methods of text selection & slash normalization",
   "homepage": "https://github.com/bacadra/pulsar-super-select",
   "keywords": [
     "bacadra",

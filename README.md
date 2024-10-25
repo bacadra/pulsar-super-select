@@ -1,6 +1,6 @@
 # super-select
 
-An additional methods of text selection e.g. by brackets, by string. A slash normalization included.
+An additional methods of text selection & slash normalization.
 
 ## Installation
 
@@ -12,22 +12,22 @@ The search begins at the cursor position to the left. When a matching character 
 
 ## Methods
 
-- `super-select:chars-1`: select chars by `/[0-9\\p{L}_\\.]/`
-- `super-select:chars-2`: select chars by `/[0-9\\p{L}_\\.\\-\\[\\]\\(\\)#]/`
-- `super-select:string`: select any of `'''`, `"""`, `'` or `"` pairs
-- `super-select:string-'-'`: select any of `'''` or `'` pairs
-- `super-select:string-'''-'''`: select `'''` pairs
-- `super-select:string-"-"`: select any of `"""` or `"` pairs
-- `super-select:string-"""-"""`: select `"""` pairs
-- `super-select:brackets`: select any of `()`, `[]`, `{}` or `<>` pairs
-- `super-select:brackets-(-)`: select `()` pairs
-- `super-select:brackets-[-]`: select `[]` pairs
-- `super-select:brackets-{-}`: select `{}` pairs
-- `super-select:brackets-<->`: select `<>` pairs
-- `super-select:normalize`: convert slashes to match the most left slash
-- `super-select:double-backslash`: convert slashes to `\\`
-- `super-select:backslash`: convert slashes to `\`
-- `super-select:forward-slash`: convert slashes to `/`
+- `super-select:chars-1`: select text by chars `/[0-9\\p{L}_\\.]/`
+- `super-select:chars-2`: select text by chars `/[0-9\\p{L}_\\.\\-\\[\\]\\(\\)#]/`
+- `super-select:string`: select text inside `'''`, `"""`, `'` or `"`
+- `super-select:string-'-'`: select text inside`'''` or `'`
+- `super-select:string-'''-'''`: select text inside `'''`
+- `super-select:string-"-"`: select text inside `"""` or `"`
+- `super-select:string-"""-"""`: select text inside `"""`
+- `super-select:brackets`: select text inside `()`, `[]`, `{}` or `<>`
+- `super-select:brackets-(-)`: select text inside `()`
+- `super-select:brackets-[-]`: select text inside `[]`
+- `super-select:brackets-{-}`: select text inside `{}`
+- `super-select:brackets-<->`: select text inside `<>`
+- `super-select:normalize`: convert slashes to match the most left slash inside selection
+- `super-select:double-backslash`: convert slashes to `\\` inside selection
+- `super-select:backslash`: convert slashes to `\` inside selection
+- `super-select:forward-slash`: convert slashes to `/` inside selection
 - `super-select:html-body`: select html body
 - `super-select:html-tags`: select html tags
 
