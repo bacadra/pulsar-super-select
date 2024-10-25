@@ -16,20 +16,20 @@ In `atom-text-editor` there are available commands:
 
 - `super-select:chars-1`: select text by chars `/[0-9\\p{L}_\\.]/`
 - `super-select:chars-2`: select text by chars `/[0-9\\p{L}_\\.\\-\\[\\]\\(\\)#]/`
-- `super-select:string`: select text inside `'''`, `"""`, `'` or `"`
+- `super-select:string`: (default `Alt-S`) select text inside `'''`, `"""`, `'` or `"`
 - `super-select:string-'-'`: select text inside`'''` or `'`
 - `super-select:string-'''-'''`: select text inside `'''`
 - `super-select:string-"-"`: select text inside `"""` or `"`
 - `super-select:string-"""-"""`: select text inside `"""`
-- `super-select:brackets`: select text inside `()`, `[]`, `{}` or `<>`
+- `super-select:brackets`: (default `Alt-D`) select text inside `()`, `[]`, `{}` or `<>`
 - `super-select:brackets-(-)`: select text inside `()`
 - `super-select:brackets-[-]`: select text inside `[]`
 - `super-select:brackets-{-}`: select text inside `{}`
 - `super-select:brackets-<->`: select text inside `<>`
 - `super-select:normalize`: convert slashes to match the most left slash inside selection
-- `super-select:double-backslash`: convert slashes to `\\` inside selection
-- `super-select:backslash`: convert slashes to `\` inside selection
-- `super-select:forward-slash`: convert slashes to `/` inside selection
+- `super-select:double-backslash`: (default `Ctrl-Alt-\`) convert slashes to `\\` inside selection
+- `super-select:backslash`: (default `Alt-\`) convert slashes to `\` inside selection
+- `super-select:forward-slash`: (default `Alt-/`) convert slashes to `/` inside selection
 - `super-select:html-body`: select html body
 - `super-select:html-tags`: select html tags
 
