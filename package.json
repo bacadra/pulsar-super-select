@@ -3,7 +3,6 @@
   "description": "An additional methods of text selection & slash normalization",
   "repository": "https://github.com/bacadra/pulsar-super-select",
   "keywords": [
-    "bacadra",
     "select",
     "slash",
     "normalize",
